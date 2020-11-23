@@ -80,6 +80,11 @@ PRODUCT_COPY_FILES += \
 -include $(LOCAL_PATH)/vendor_prop.mk
 -include $(LOCAL_PATH)/product_prop.mk
 
+# A2DP
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth.a2dp@1.0-impl \
+    android.hardware.bluetooth.a2dp@1.0-service
+
 # ANT
 PRODUCT_PACKAGES += \
     AntHalService \
