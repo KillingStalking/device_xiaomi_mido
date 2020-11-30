@@ -154,7 +154,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
     camera.msm8953 \
     libmm-qcamera \
-    libui_shim
+    libui_shim \
+    libshim_cam
 
 # Consumerir
 PRODUCT_PACKAGES += \
